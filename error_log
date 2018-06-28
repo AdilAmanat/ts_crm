@@ -1,8 +1,0 @@
-[03-Jun-2018 02:19:58 Asia/Dubai] PHP Fatal error:  Call to undefined method Back_office_model::import_csv() in /home/suvhbxxeat9w/public_html/application/controllers/Back_office.php on line 294
-[03-Jun-2018 02:20:10 Asia/Dubai] PHP Fatal error:  Call to undefined method Back_office_model::import_csv() in /home/suvhbxxeat9w/public_html/application/controllers/Back_office.php on line 294
-[03-Jun-2018 21:06:10 Asia/Dubai] PHP Fatal error:  Call to undefined method Back_office_model::import_csv() in /home/suvhbxxeat9w/public_html/application/controllers/Back_office.php on line 294
-[20-Jun-2018 21:04:30 Asia/Dubai] PHP Fatal error:  Call to undefined method Users_model::get_recent_leads() in /home/suvhbxxeat9w/public_html/application/controllers/Users.php on line 101
-[20-Jun-2018 21:08:19 Asia/Dubai] PHP Fatal error:  Call to undefined method Users_model::get_recent_leads() in /home/suvhbxxeat9w/public_html/application/controllers/Users.php on line 101
-[24-Jun-2018 23:17:18 Asia/Dubai] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/suvhbxxeat9w/public_html/beta/application/views/back_office/add_daily_sale.php on line 226
-[24-Jun-2018 23:19:40 Asia/Dubai] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or '$' in /home/suvhbxxeat9w/public_html/beta/application/views/back_office/add_daily_sale.php on line 226
-[25-Jun-2018 00:22:42 Asia/Dubai] PHP Parse error:  syntax error, unexpected ''Docum' (T_ENCAPSED_AND_WHITESPACE) in /home/suvhbxxeat9w/public_html/beta/application/views/back_office/add_daily_sale.php on line 914
