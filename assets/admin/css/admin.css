@@ -1,0 +1,209 @@
+body{
+	margin:0px;
+	padding:0px;
+}
+.site-wrapper{
+	width:100%;
+}
+.main-wrappper{
+	width:1024px;
+	margin:0 auto;
+	padding: 20px 20px;
+	border:thin solid #D2D2D2;
+}
+.clear{
+	clear:both;
+}
+.admin-menu{
+	float:left;
+	width:180px;
+}
+.admin-content-wraper{
+	float:right;
+	width:80%;
+	padding-left:20px;
+}
+.admin-content-wraper table th{
+	background:#ccc;
+	
+}
+
+/*.admin-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+.admin-menu ul li{
+	float:none;
+	text-align:left;
+}
+
+.admin-menu ul li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+	text-align:left;
+}
+
+ Change the link color on hover 
+.admin-menu ul li a:hover {
+    background-color: #555;
+    color: white;
+}*/
+
+#divMenu, #divMenu ul, #divMenu li, #divMenu li li {
+    margin: 0;
+    padding: 0;
+	background: #f1f1f1;
+}
+#divMenu {
+    width: 150px;
+    height: 27px;
+}
+#divMenu ul{
+     line-height: 25px;
+}
+    #divMenu li {
+        list-style: none;
+        position: relative;
+		float:left;
+        /*background: #f1f1f1;*/
+    }
+        #divMenu li li {
+            list-style: none;
+            position: relative;
+			float:left;
+           /* background: #f1f1f1;*/
+             /*left: 181px;
+           top: -27px;*/
+        }
+    #divMenu ul li a {
+        width: 148px;
+        height: 25px;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        color:#000;
+        border:1px solid #eee;
+		padding: 14px 16px;
+    }
+    #divMenu ul ul {
+        position: absolute;
+        visibility: hidden;
+        top: 0px;
+		left:182px;
+    }
+    #divMenu ul li:hover ul {
+        visibility: visible;
+    }
+    #divMenu li:hover {
+        background-color: #555;
+		color:#fff;
+    }
+    #divMenu ul li:hover ul li a:hover {
+        background-color: #555;
+    }
+    #divMenu a:hover {
+		background:#555 !important;
+		color:#fff;
+    }
+
+.admin-content-wraper table{
+	width:100%;
+}
+.admin-content-wraper table td{
+	padding:10px;
+}
+.admin-content-wraper table td input, .admin-content-wraper table td select{
+	padding:10px;
+}
+.admin-content-wraper table th{
+	padding:10px;
+}
+
+ul.top-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f1f1f1;
+	width:100%;
+}
+
+.top-menu li {
+    float: right;
+}
+
+.top-menu li a, .top-menu .dropbtn {
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.top-menu li a:hover, .top-menu .dropdown:hover .dropbtn {
+    background-color: #847b7b;
+    color: #fff;
+}
+
+.top-menu  li.dropdown {
+    display: inline-block;
+}
+
+.top-menu  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.top-menu  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.top-menu  .dropdown-content a:hover {background-color: #f1f1f1;color:#000 !important;}
+
+.top-menu  .dropdown:hover .dropdown-content {
+    display: block;
+}
+.update-btn{
+	padding:5px 10px;
+	color: #fff;
+	border:thin solid #D2D2D2;
+	background:#a5a5a5;
+	display:inline-block;
+	cursor:pointer;
+	text-decoration:none;
+}
+.update-btn:hover{
+	text-decoration:none;
+	background:#D2D2D2;
+	border:thin solid #a5a5a5;
+}
+.heading-btn{
+	float:right;
+	margin-top: 6px;
+}
+.admin-content-wraper .top_heading{
+	float:left;
+	margin:0px;
+}
+.selected-color{
+	width: 36px;
+    height: 36px;
+	margin:0 auto;
+}
+.formError{
+	color: red;
+    font-size: 13px;
+}
