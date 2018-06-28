@@ -48,7 +48,7 @@ date_default_timezone_set('Asia/Dubai');
 
 */
 
-$config['base_url'] = 'https://beta.alwafiqcrm.com/';
+$config['base_url'] = 'http://localhost';
 
 
 

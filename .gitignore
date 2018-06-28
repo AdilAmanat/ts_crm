@@ -1,5 +1,7 @@
+.htaccess
 application/config/production/database.php
 application/config/testing/database.php
 application/config/development/database.php
+application/config/config.php
 /uploads/
 /system/
